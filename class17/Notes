@@ -1,0 +1,39 @@
+Access Modifiers:
+Accesss modifiers are keywords in java that help us control the access of classes,
+variables ,methods and other code of block.There are four access levels in Java;
+privet;
+Default;//is not a keyword,protect and publik,;We have tree keywords that
+define these access levels 1) privet 2)protected 3)public
+privet:
+Whene we use the privet keyword with a method or field it is only accessible inside that class.
+it is the most restrigted access modiefair;
+Default(its not a keyword):
+When we don't use any access modifier keyword with a field or a method then default access is
+applied by java which means we can access this variable or method inside the same as well as in all theother
+classes which exist inside the same packege
+Protected:
+When we have protected access modifier we can access that method or variable inside thesame class
+inside the ither classes which are inside the same package+ inside the classes which are in different
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

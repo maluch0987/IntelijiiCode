@@ -1,0 +1,47 @@
+Types of variables in Java;
+We have three types of variables;
+1)Local variables--
+are variables that we declare inside a block of code
+They occupy the memory for shortes period of time
+downSide:They cant by accessed out side of the block in which they are declared
+2)Instance variables:
+Are the variables that are declared inside a class but outside of a block code
+upSide:Can be accessed in all  the methods of class.The can have different value for
+instance of the class
+3)Static variables;
+  All the variables which are defined outside a block of code witch static keyword they
+  are called static variables;
+  upSide:
+  they only reserve a single memory location for all the instance of a class
+they can be accessed by just writing the name of the clASS and variable name
+downSide:
+The occupy the memory for the longest period of the time always store only one value
+for all the object of the class
+Real life use:
+Most of the time you will be storing contacts values in static variables.
+static is also heavily methods that don't involve instance variables.
+Access modifiers:
+There are 3 access modifier keyword(privet,protected,public) and 4 access levels in
+ Java(privet,default,protected,public)
+
+ Rules:
+ Access modifiers can only be used witch instance and static members of the
+ class (fields and methods
+ privet:
+    When we use privet with any method or variable we can only access that method or
+    variable in that class
+    Default(it's not a keyword)
+    we can access that member inside the same class inside the same package in other classes.
+    public;
+    when we use public access modifier with member of a class it is available throughout
+    that project
+    Real life use:
+     99.9%%  instance field are always privet.
+     99.9%%  of the time instance and static methods are public;
+     ======================================================================
+
+
+
+
+
+

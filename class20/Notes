@@ -1,0 +1,11 @@
+Inheritance;
+is a inheritance in Java through which one class acquires the properties and methods of
+another class;.
+why we should use Inheritance:
+1) it helps reduce the amount of the code that we have to write;
+2)it is more efficient;
+3)Save memory;
+How we can  use Inheritance;
+we can use the extends keyword after the class name and then the same of the class
+from which we want to inherit the code. Example is given below.
+Types of inheritance;

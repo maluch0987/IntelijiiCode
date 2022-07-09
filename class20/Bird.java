@@ -29,7 +29,8 @@ public class Bird {
     }
 
     class Sparrow extends Bird {
-        Sparrow(String name, String color, int age, double weight) {
+        Sparrow(String name, String color, int age, double weight)
+        {
             super(name, color, age, weight);
         }
     }

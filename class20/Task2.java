@@ -14,6 +14,7 @@ which is static and call or reuse that method into class B
 }
 class G{
     public static void printF(){
+
         System.out.println("Method printF in class G");
     }
         }

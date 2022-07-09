@@ -11,7 +11,7 @@ class Wood{
 }
 class Furniture extends Wood {
 
-    //String color="Black";
+    String color="Black";
 
 
 }

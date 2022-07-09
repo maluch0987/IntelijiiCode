@@ -1,0 +1,44 @@
+whats super keyword;
+super keyword in Java is used to refer to the parent class object;
+why should we learn super keyword.
+  1)if we have same name variable or methods in the super/parent/base class then we
+  can use the super keyword to refer to parent class variable or method because by
+  default java prefers the variables of child class. We can also call the super class
+  constructor with the help of super with parenthesis super();
+how to use super keyword:
+1)We can use method name or field name to call the method or to access the
+field of super class.
+2)use the super with paranthesis to call the super class constructor
+
+Rules;
+10we can only access the immediate parent class constructor or field or method
+with the help of super keyword.
+2)when can only use super() inside a constructor.
+3)If we have a user created constructor in the parent class we must have a matching parameter
+constructor inside the child class as well.
+4)super() should  be the first line inside a constructor
+5)If we have multiple constructor inside the parent as soon as one is match we are to go
+we don't need to match each and every constructor from the parent
+=============================================================
+Important
+Arrays
+Loops
+If else Conditions
+Classes object
+String Class
+methods
+===================================================================
+What is MethodOverLoading
+  When same name method exist in a class but with different number of parameters or
+  different type of parameters or different of parameters it is called
+  MethodOverLoading.
+  Why we should use MethodOverLoading:
+  1)Makes you code more readable.
+  2)Makes the life of the end user easy they don't have to memorize many method names.
+
+  How we can use method overLoading:
+  we can have same name method but we have to follow the below rules.
+  1)by passing different number of parameters.
+  2)we can change the datatype of parameters
+  3)we can also overload a method by changing the sequence of parameters
+

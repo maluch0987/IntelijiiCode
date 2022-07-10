@@ -1,0 +1,84 @@
+Collections framework:
+Collection framework is a just a collection of interfaces and classes that have many
+methods to store and manipulate real live day to day data
+
+Why we should learn Collections framework:
+  Collections framework contains the classes that have pre-built methods to store and
+  manipulate the data.These methods are battle tested(very well tested someThing we can use in
+  production environment).
+
+How can we use the collections framework:
+The are same  classes just like any other class in java.We create the object of the
+class
+ans start calling the methods we just need take care of the diamond operator .
+we put the name of the class inside the diamond operator<>whos object we will be store inside these classes
+for example for String and ArrayList the syntax is
+ArrayList<String> objName=new ArrayList<>();
+
+What are wrapper classes:
+The are special classes built to work with collections framework which are replica of
+primitive data types but they are classes means we can use them just like any other class w
+we can have methods.
+
+Boxing and unboxing in wrapper classes.
+when we convert a primitive data type like int to a non primitive wrapper classes like
+Integer we call it boxing.This  convertion can happen automatically and we can also call
+explicit methods to primitives to non=primitives
+in the case of auto its called auto boxing and in autoboxing we just assign the data,
+and it is converted automatically while in simple we need to call a method to convert it.
+Unboxing and auto-Unboxing is simple the reverse of it
+Some Downsides not that down:
+1)We need to use the wrapper classes with collections framework
+2)int num vs integer num Wrapper classes occupy 4 times memory as compared to primitives
+but as tester we don't need to worry too much about these wrapper classes
+==============================================================================
+List is the first interface that we will be discussing from the collectiong from the collections framework
+List:
+1)we can store duplicate data
+2)insertion order is maintained.
+ArrayList:
+LinkedLstClass
+Differance between ArrayList and LinkedList;
+ArrayList;
+  UpSide: Retrieval(get operation) of elements is super fast
+  DownSide:adding elements in the middle or start will be very expensive
+LinkList:
+Upside:whenever we have to insert the data randomly not at the last index we should be using
+LinkLIST
+Downside:
+retrieval is super,super slow if the list is big
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
